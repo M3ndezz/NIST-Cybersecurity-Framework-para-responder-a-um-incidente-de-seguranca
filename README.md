@@ -6,6 +6,14 @@ Durante o ataque, os serviços de rede de sua organização pararam de responder
 
 Em seguida, a equipe de segurança cibernética da empresa investigou o evento de segurança. Eles descobriram que um agente mal-intencionado havia enviado um ataque flood de pings ICMP para a rede da empresa por meio de um firewall não configurado. Essa vulnerabilidade permitiu que o invasor mal-intencionado sobrecarregasse a rede da empresa por meio de um ataque distribuído de negação de serviço (DDoS).
 
+- Uma nova regra de firewall para limitar a taxa de entrada de pacotes ICMP
+
+- Verificação do endereço IP de origem no firewall para verificar se há endereços IP falsos nos pacotes ICMP recebidos
+
+- Software de monitoramento de rede para detectar padrões de tráfego anormais
+
+- Um sistema IDS/IPS para filtrar algum tráfego ICMP com base em características suspeitas
+
 ## Objetivo 🎯
 
 Criar um plano para melhorar a segurança de rede da sua empresa, seguindo a Estrutura de Segurança Cibernética (CSF) do Instituto Nacional de Padrões e Tecnologia (NIST). Utilizar o CSF para ajudá-lo a navegar pelas diferentes etapas de análise desse evento de segurança cibernética e integrar sua análise a uma estratégia geral de segurança.
